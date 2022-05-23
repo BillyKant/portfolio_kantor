@@ -87,20 +87,27 @@ main {
     border:5px solid darkgrey; 
 }
 
-
-#articles {
-    display: flex;
-    background-size: cover;
-    background-position: center;
-    position: relative;
-    width: 100%;
-    background-color: darkgrey;
+#fun-photos {
+    background-color: darkgray;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
-.article {
-    background-color: lightgray;
-    margin: 20px;
-    border-radius: 5%;
+#fun-photos-ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    list-style-type: none;
+}
+
+.fun-photos-li {
+
+}
+
+.fun-photos {
+    width:300px;
+    border-radius: 50%;
 }
 
 footer {
